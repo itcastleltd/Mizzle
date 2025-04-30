@@ -5,14 +5,14 @@
       href="#"
       id="megaMenu"
     >
-      Megamenu
+      Services
       <font-awesome-icon :icon="faAngleDown" class="fa-sm ms-1" />
     </a>
     <div class="dropdown-menu py-0">
       <b-row class="p-2 p-sm-4 g-4">
         <b-col md="6" xl="3">
           <ul class="list-unstyled">
-            <li class="dropdown-header h6 mb-2">Useful links</li>
+            <li class="dropdown-header h6 mb-2">Development</li>
             <li>
               <router-link
                 v-for="(item, idx) in MEGA_MENU_ITEMS.usefulLinks"

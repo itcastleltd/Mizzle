@@ -10,7 +10,7 @@
 
       <Services />
 
-      <Pricing />
+      <!-- <Pricing /> -->
 
       <Testimonial />
 

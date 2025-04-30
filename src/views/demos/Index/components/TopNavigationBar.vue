@@ -19,7 +19,7 @@
             </router-link>
           </li>
           <li class="nav-item d-none d-sm-block">
-            <a :href="buyLink" target="_blank" class="btn btn-sm btn-primary mb-0">Buy now!</a>
+            <a :href="buyLink" target="_blank" class="btn btn-sm btn-primary mb-0">Get a Quote!</a>
           </li>
           <li class="nav-item">
             <MobileNavbarToggler />

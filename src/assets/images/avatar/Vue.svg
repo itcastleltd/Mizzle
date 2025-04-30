@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #41b883;
+      }
+
+      .cls-2 {
+        fill: #35495e;
+      }
+    </style>
+  </defs>
+  <g id="vuejs">
+    <g id="vuejs_2" data-name="vuejs 2">
+      <path id="Vector" class="cls-1" d="M149.94,28.21h33.29L100,171.79,16.77,28.21h63.67l19.56,33.29,19.14-33.29h30.8Z"/>
+      <path id="Vector_2" data-name="Vector 2" class="cls-1" d="M16.77,28.21L100,171.79,183.23,28.21h-33.29l-49.94,86.15L49.64,28.21H16.77Z"/>
+      <path id="Vector_3" data-name="Vector 3" class="cls-2" d="M49.64,28.21l50.36,86.56L149.94,28.21h-30.8l-19.14,33.29-19.56-33.29h-30.8Z"/>
+    </g>
+  </g>
+</svg>

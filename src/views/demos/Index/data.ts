@@ -27,19 +27,21 @@ export const clients = [client1Img, client2Img, client3Img, client4Img, client5I
 
 export const services: ServiceType[] = [
   {
-    title: 'Digital Marketing',
-    description: 'Growing brands online through digital channels.',
-    icon: BIconStack
-  },
-  {
     title: 'Product Design',
     description: 'Creating products that users love and businesses need.',
     icon: BIconBoxes
   },
+  
   {
-    title: 'Web Design',
-    description: 'Designing websites that are visually appealing & user-friendly.',
+    title: 'MVP Development',
+    description: 'Growing brands online through digital channels.',
+    icon: BIconStack
+  },
+  {
+    title: 'Application Development',
+    description: 'Building applications that solve real-world problems.',
     icon: BIconCircleSquare
+
   },
   {
     title: 'UI/UX Design',
@@ -47,25 +49,26 @@ export const services: ServiceType[] = [
     icon: BIconVectorPen
   },
   {
-    title: 'Business Strategy',
-    description: 'Developing and executing plans to achieve business goals.',
-    icon: BIconBriefcase
-  },
-  {
-    title: 'Research',
-    description: 'Gathering and analyzing data to inform decision-making.',
+    title: 'AI Solutions',
+    description: 'Integrate AI to enhance business processes and customer experiences.',
     icon: BIconBinoculars
   },
   {
-    title: 'Web Development',
-    description: 'Building and maintaining websites and web applications.',
-    icon: BIconCodeSlash
+    title: 'DevOps Solutions',
+    description: 'Streamlining development and operations for faster delivery.',
+    icon: BIconBriefcase
   },
   {
-    title: 'Brand Design',
-    description: 'Creating brands that are unique, memorable, and meaningful.',
+    title: 'Digital Marketing',
+    description: 'Helping businesses grow through online marketing strategies.',
     icon: BIconBullseye
-  }
+  },
+  {
+    title: 'E-commerce Solutions',
+    description: 'Building online stores with seamless user experiences.',
+    icon: BIconCircleSquare
+}
+  
 ]
 
 export const userData: UserType[] = [
@@ -100,27 +103,27 @@ export const testimonials: TestimonialType[] = [
     id: '1',
     user: userData[0],
     comment:
-      "The best Bootstrap theme we've ever used - it's easy to customize and comes with all the features we need.",
-    rating: 4.5
+      "As a founder, I needed an MVP built fast without compromising quality. IT Castle delivered on time and refined our product roadmap.",
+    rating: 4.9
   },
   {
     id: '2',
     user: userData[1],
     comment:
-      "The best Bootstrap theme we've ever used - it's easy to customize and comes with all the features we need.",
+      "Launching our online store was seamless with IT Castle. Their expertise in e-commerce and UX design helped us create a site that converts effortlessly.",
     rating: 4.5
   },
 
   {
     id: '3',
     user: userData[2],
-    comment: 'Stackbros helped us create a stunning website that reflects our brand perfectly.',
-    rating: 4.5
+    comment: 'IT Castle stands out for their data-driven digital marketing. Their SEO strategies significantly improved our clients rankings.',
+    rating: 4.8
   },
   {
     id: '4',
     user: userData[3],
-    comment: 'I highly recommend Mizzle to anyone looking for a high-quality Bootstrap theme.',
-    rating: 4.5
+    comment: 'Our sales grew by 30% after partnering with IT Castle. Their expertise in checkout optimization and UX design was game-changing.',
+    rating: 4.7
   }
 ]

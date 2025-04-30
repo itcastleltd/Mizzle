@@ -76,7 +76,7 @@
 
         <b-row class="g-4 position-relative">
           <b-col lg="6">
-            <h3 class="text-white">Let's talk about your digital agency goals</h3>
+            <h3 class="text-white">Let's talk about your business goals</h3>
 
             <b-form class="col-md-10 bg-body rounded-2 p-2 mt-4">
               <div class="input-group">
@@ -113,7 +113,7 @@
                   class="text-white fw-normal icons-center justify-content-end gap-1"
                 >
                   <BIconEnvelope class="me-1" />
-                  Email: example@gmail.com
+                  Email: office@itcastle.co
                 </router-link>
               </li>
             </ul>

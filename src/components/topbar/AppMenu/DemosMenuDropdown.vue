@@ -5,7 +5,7 @@
       href="#"
       :class="menuItemActive('demos', currentRouteName) && 'active'"
     >
-      Demos
+      Home
       <font-awesome-icon :icon="faAngleDown" class="fa-sm ms-1" />
     </a>
     <div class="dropdown-menu dropdown-menu-size-lg p-3">

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="102.75" y1="1952.15" x2="132.96" y2="1914.71" gradientTransform="translate(0 2079.98) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="126.5" y1="2016.19" x2="126.33" y2="1971.19" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="nextjs2">
+    <g id="nextjs2_2" data-name="nextjs2 2">
+      <path id="Vector" class="cls-2" d="M100,171.04c42.3,0,76.6-34.29,76.6-76.6S142.3,17.85,100,17.85,23.4,52.14,23.4,94.45s34.29,76.6,76.6,76.6Z"/>
+      <path id="Vector_2" data-name="Vector 2" class="cls-3" d="M150.65,151.91L82.25,63.81h-12.89v61.25h10.31v-48.16l62.88,81.24c2.84-1.9,5.54-3.98,8.09-6.23Z"/>
+      <path id="Vector_3" data-name="Vector 3" class="cls-1" d="M131.49,63.81h-10.21v61.28h10.21V63.81Z"/>
+    </g>
+  </g>
+</svg>

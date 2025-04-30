@@ -63,7 +63,7 @@
               <div class="avatar avatar-sm flex-shrink-0 me-2">
                 <img class="avatar-img rounded-circle" :src="avatar9" alt="avatar" />
               </div>
-              <p class="text-white small mb-0">The best Bootstrap theme we've ever used 🔥</p>
+              <p class="text-white small mb-0">They're my strategic partner🔥</p>
             </div>
           </b-col>
 
@@ -73,7 +73,7 @@
             <div class="avatar avatar-sm flex-shrink-0 me-2">
               <img class="avatar-img rounded-circle" :src="avatar3" alt="avatar" />
             </div>
-            <p class="text-dark small mb-0">Excellent Theme 💗</p>
+            <p class="text-dark small mb-0">Love thier Support 💗</p>
           </div>
         </b-col>
       </b-row>

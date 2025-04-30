@@ -1,7 +1,7 @@
 const setTitle = (pageName?: string) => {
   return pageName
-    ? `${pageName} | Mizzle Vue - Multipurpose Bootstrap Template`
-    : 'Mizzle Vue | Multipurpose Bootstrap Template'
+    ? `${pageName} | IT Castle - Product Design, Engineering & Marketing Studio`
+    : 'IT Castle - Software Design, Engineering & Marketing Studio'
 }
 
 const demoRoutes = [

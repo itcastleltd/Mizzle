@@ -51,11 +51,11 @@
         <b-col xl="7" class="mb-5 mb-xl-0">
           <div class="pe-xxl-4">
             <span class="heading-color d-inline-block bg-light small rounded-3 px-3 py-2"
-              >🤩 Award-winning digital services</span
+              >🤩 Build Your MVP Faster & Smarter! </span
             >
 
             <h1 class="mt-3 lh-base">
-              Creative studio focused on
+              Software Design <br>
               <span
                 class="cd-headline clip big-clip is-full-width text-primary mb-0 d-block d-xxl-inline-block"
               >
@@ -63,22 +63,9 @@
               </span>
             </h1>
             <p class="mb-0 mt-4 mt-md-5">
-              From concept to execution, we deliver web designs that make an impact. Let your brand
-              shine with our innovative and visually stunning websites.
+              At IT Castle, we help founders and established brands bring their vision to life with lean,
+               scalable MVPs built using modern technologies and startup-first thinking.
             </p>
-
-            <b-form class="col-md-10 bg-body border rounded-2 position-relative p-2 mt-4 mt-md-5">
-              <div class="input-group">
-                <b-form-input
-                  class="focus-shadow-none border-0 me-1"
-                  type="email"
-                  placeholder="Enter your email address"
-                />
-                <b-button type="button" variant="dark" class="rounded-2 mb-0"
-                  >Start trial!</b-button
-                >
-              </div>
-            </b-form>
 
             <b-row class="mt-5">
               <b-col md="6" class="mb-5 mb-md-0">
@@ -190,14 +177,14 @@
             class="d-inline-block bg-dark rounded-4 position-absolute start-0 bottom-0 mb-md-4 ms-md-n5 p-3"
           >
             <div class="d-flex align-items-center">
-              <h6 class="text-white mb-0 me-2">5K+</h6>
+              <h6 class="text-white mb-0 me-2">15+</h6>
               <ul class="avatar-group mb-0 align-items-center">
                 <li class="avatar avatar-xs" v-for="(avatar, idx) in avatars" :key="idx">
-                  <img class="avatar-img rounded-circle" :src="avatar" alt="avatar" />
+                  <img class="avatar-img rounded-circle" :src="avatar" alt="Stack" />
                 </li>
               </ul>
             </div>
-            <p class="text-white mb-0 mt-2">Total visitors per month</p>
+            <p class="text-white mb-0 mt-2">Technolgy Stack</p>
           </div>
 
           <b-card
@@ -210,7 +197,7 @@
               <img :src="trustpilotStar" class="h-30px" alt="rating-img" />
               <h6 class="font-base fw-bold ms-1 mb-0">4.8/5.0</h6>
             </div>
-            <p class="small mb-0 mt-2">Reviewed by 365 users</p>
+            <p class="small mb-0 mt-2">Reviewed by 132 users</p>
           </b-card>
         </b-col>
       </b-row>
@@ -221,18 +208,18 @@
 <script setup lang="ts">
 import ITyped from '@/components/ITyped.vue'
 
-import avatar2 from '@/assets/images/avatar/02.jpg'
-import avatar3 from '@/assets/images/avatar/03.jpg'
-import avatar4 from '@/assets/images/avatar/04.jpg'
-import avatar5 from '@/assets/images/avatar/05.jpg'
-import avatar6 from '@/assets/images/avatar/06.jpg'
-import backgroundImg1 from '@/assets/images/bg/01.jpg'
+import avatar2 from '@/assets/images/avatar/Next.jpg'
+import avatar3 from '@/assets/images/avatar/React.jpg'
+import avatar4 from '@/assets/images/avatar/Vue.jpg'
+import avatar5 from '@/assets/images/avatar/Laravel.jpg'
+import avatar6 from '@/assets/images/avatar/AWS.jpg'
+import backgroundImg1 from '@/assets/images/bg/MVP.svg'
 import trustpilot from '@/assets/images/elements/trustpilot.svg'
 import patternSvg from '@/assets/images/elements/decoration-pattern.svg'
 import trustpilotLight from '@/assets/images/elements/trustpilot-light.svg'
 import trustpilotStar from '@/assets/images/elements/trustpilot-star.svg'
 
-const strings = ['Web Design', 'Web Dev', 'UI/UX Design']
+const strings = ['Engineering', 'Development', 'Marketing']
 
 const avatars = [avatar6, avatar5, avatar2, avatar3, avatar4]
 </script>
