@@ -78,26 +78,26 @@
           <span class="heading-color bg-light small rounded-3 px-3 py-2"
             >🤝 Your gateway to digital success</span
           >
-          <h2 class="my-4">Defining the future of online experiences!</h2>
+          <h2 class="my-4">From ideation to launch and beyond!</h2>
           <p class="mb-4">
-            Embrace a new era of digital success with Mizzle. Our team combines cutting-edge design
-            with robust development to deliver websites that captivate and convert.
+            At IT Castle, we’re not just another tech provider—we’re your trusted partner in turning ideas into reality. With over 10+ years of experience  and 1.2K happy customers , 
+            we’ve helped startups and established brands alike achieve their digital goals.
           </p>
           <ul class="list-group list-group-borderless mb-4">
             <li class="list-group-item heading-color d-flex mb-0 icons-center">
               <BIconPatchCheckFill class="text-primary me-2" />
-              Emphasis on ROI-driven solutions
+              Expert team with diverse skill. 
             </li>
             <li class="list-group-item heading-color d-flex mb-0 icons-center">
               <BIconPatchCheckFill class="text-primary me-2" />
-              Expert team with diverse skill
+              Startup-first, Founder-focused approach.
             </li>
             <li class="list-group-item heading-color d-flex mb-0 icons-center">
               <BIconPatchCheckFill class="text-primary me-2" />
-              Proven track record of delivering results
+              Proven track record of delivering results.
             </li>
           </ul>
-          <router-link :to="{ name: 'about.v1' }" class="btn btn-dark mb-0"
+          <router-link :to="{ name: 'about.v3' }" class="btn btn-dark mb-0"
             >Discover more</router-link
           >
         </b-col>

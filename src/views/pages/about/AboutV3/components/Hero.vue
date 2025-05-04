@@ -4,7 +4,7 @@
       <b-row>
         <b-col lg="6" xl="5" class="mb-6 mb-lg-0">
           <div class="d-flex flex-column h-100">
-            <h1 class="mb-4">Exploring the Heart of <span class="text-primary">Mizzle </span></h1>
+            <h1 class="mb-4">100+ of the starup companies, trust <span class="text-primary">IT Castle for growth. </span></h1>
             <p class="mb-5 mb-xl-0">
               We transform ideas into solutions that exceed your expectations. Dive into our story
               to understand how.

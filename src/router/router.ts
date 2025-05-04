@@ -11,9 +11,9 @@ const demoRoutes = [
     name: 'index'
   },
   {
-    path: '/demos/classic',
+    path: '/home',
     name: 'demos.classic',
-    meta: {
+    meta: { 
       title: setTitle()
     },
     component: () => import('@/views/demos/Index/index.vue')
@@ -126,6 +126,22 @@ const demoRoutes = [
 
 const pagesRoutes = [
   {
+    path: '/services',
+    name: 'services.index',
+    meta: {
+      title: setTitle('Our Services')
+    },
+    component: () => import('@/views/Services/index.vue')
+  },
+  {
+    path: '/services/mvp-development',
+    name: 'services.mvp',
+    meta: {
+      title: setTitle('MVP Development')
+    },
+    component: () => import('@/views/Services/mvp/index.vue')
+  },
+  {
     path: '/help/detail',
     name: 'help.detail',
     meta: {
@@ -198,10 +214,10 @@ const pagesRoutes = [
     component: () => import('@/views/pages/about/AboutV2/index.vue')
   },
   {
-    path: '/about/v3',
+    path: '/about/',
     name: 'about.v3',
     meta: {
-      title: setTitle('About-V3')
+      title: setTitle('About Us')
     },
     component: () => import('@/views/pages/about/AboutV3/index.vue')
   },
