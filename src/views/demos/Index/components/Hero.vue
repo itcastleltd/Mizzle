@@ -109,8 +109,8 @@
                     </svg>
                   </figure>
                   <div class="ms-3">
-                    <h6 class="mb-1">24/7 Support</h6>
-                    <p class="mb-0">We're always here to help</p>
+                    <h6 class="mb-1">Support</h6>
+                    <p class="mb-0">24/7 We're availabe to help</p>
                   </div>
                 </div>
               </b-col>
@@ -138,8 +138,8 @@
                   </figure>
 
                   <div class="ms-3">
-                    <h6 class="mb-1">Award Winning agency</h6>
-                    <p class="mb-0">You are in safe hand</p>
+                    <h6 class="mb-1">Consultancy</h6>
+                    <p class="mb-0">30 Min Free Seassion</p>
                   </div>
                 </div>
               </b-col>

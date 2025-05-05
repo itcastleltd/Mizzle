@@ -20,10 +20,11 @@ import client2Img from '@/assets/images/client/02.svg'
 import client3Img from '@/assets/images/client/03.svg'
 import client4Img from '@/assets/images/client/04.svg'
 import client5Img from '@/assets/images/client/05.svg'
+import client6Img from '@/assets/images/client/06.svg'
 
 export const avatars = [avatar6, avatar5, avatar2, avatar3, avatar4]
 
-export const clients = [client1Img, client2Img, client3Img, client4Img, client5Img, client1Img]
+export const clients = [client1Img, client2Img, client3Img, client4Img, client5Img, client6Img]
 
 export const services: ServiceType[] = [
   {

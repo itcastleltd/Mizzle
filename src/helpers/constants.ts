@@ -6,8 +6,8 @@ export const currentYear = new Date().getFullYear()
 
 export const developedByLink = ''
 
-export const developedBy = 'Stackbros'
+export const developedBy = 'IT Castle'
 
 export const buyLink = ''
 
-export const supportLink = 'mailto:stackbros07@gmail.com'
+export const supportLink = 'mailto:sales@itcastle.co'

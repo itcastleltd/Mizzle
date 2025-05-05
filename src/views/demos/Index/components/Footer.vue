@@ -52,8 +52,7 @@
           <LogoBox className="me-0" imageClass="h-40px" />
 
           <p class="mt-4 mb-2">
-            A Bootstrap theme that's both stylish and functional, perfect for any type of technology
-            or corporate website.
+            We are a team of experienced software developers and engineers who are dedicated to providing high-quality software & opensource development services to businesses of all sizes.
           </p>
         </b-col>
 
@@ -116,39 +115,10 @@
         class="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4"
       >
         <div class="text-body">
-          Copyrights ©{{ currentYear }} Mizzle. Build by
+          Copyrights ©{{ currentYear }} . Built for
           <a :href="developedByLink" class="text-body text-primary-hover">{{ developedBy }}</a
           >.
         </div>
-        <b-dropdown
-          dropup
-          menu-class="min-w-auto"
-          no-caret
-          toggleClass="d-flex btn btn-sm btn-light mb-0 icons-center"
-          class="text-center text-md-end mt-3 mt-md-0"
-        >
-          <template #button-content>
-            <font-awesome-icon :icon="faGlobe" class="me-2" />
-            <span class="icons-center"
-              >Language <font-awesome-icon class="ms-2 fa-sm" :icon="faChevronUp" />
-            </span>
-          </template>
-          <li>
-            <b-dropdown-item class="me-4" href="#"
-              ><img class="fa-fw me-2" :src="ukFlag" alt="" />English
-            </b-dropdown-item>
-          </li>
-          <li>
-            <b-dropdown-item class="me-4" href="#"
-              ><img class="fa-fw me-2" :src="grFlag" alt="" />German</b-dropdown-item
-            >
-          </li>
-          <li>
-            <b-dropdown-item class="me-4" href="#"
-              ><img class="fa-fw me-2" :src="spFlag" alt="" />French</b-dropdown-item
-            >
-          </li>
-        </b-dropdown>
       </div>
     </b-container>
   </footer>

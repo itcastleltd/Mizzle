@@ -54,26 +54,29 @@ export const quickLinks: FooterLinkType[] = [
 
 export const communityLinks: FooterLinkType[] = [
   {
-    name: 'Documents'
+    name: 'Services',
+    link: 'services.index',
   },
   {
-    name: 'Supports',
-    icon: BIconBoxArrowUpRight
+    name: 'Mvp Development',
+    icon: BIconBoxArrowUpRight,
+    link: 'services.mvp'
   },
   {
-    name: 'Faqs',
-    link: 'faqs'
+    name: 'Ecommerce',
+    link: 'services.ecommerce'
   },
   {
-    name: 'Privacy Policy'
+    name: 'Application Development',
+    link: 'services.application'
   },
   {
-    name: 'News and blogs',
-    link: 'blog.grid'
+    name: 'DevOps',
+    link: 'services.devops'
   },
   {
-    name: 'Terms & condition',
-    link: 'terms-conditions'
+    name: 'Digital Marketing',
+    link: 'services.dmarketing'
   }
 ]
 

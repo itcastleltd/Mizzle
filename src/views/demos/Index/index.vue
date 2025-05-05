@@ -8,6 +8,8 @@
 
       <About />
 
+      <Feature />
+
       <Services />
 
       <!-- <Pricing /> -->
@@ -27,6 +29,8 @@ import Client from '@/views/demos/Index/components/Client.vue'
 import About from '@/views/demos/Index/components/About.vue'
 import Services from '@/views/demos/Index/components/Services.vue'
 // import Pricing from '@/views/demos/Index/components/Pricing.vue'
+import Feature from '@/views/demos/Index/components/FeatureGroup.vue'
+
 import Testimonial from '@/views/demos/Index/components/Testimonial.vue'
 import Cta from '@/views/demos/Index/components/Cta.vue'
 import Footer from '@/views/demos/Index/components/Footer.vue'

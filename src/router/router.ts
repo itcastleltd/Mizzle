@@ -125,22 +125,7 @@ const demoRoutes = [
 ]
 
 const pagesRoutes = [
-  {
-    path: '/services',
-    name: 'services.index',
-    meta: {
-      title: setTitle('Our Services')
-    },
-    component: () => import('@/views/Services/index.vue')
-  },
-  {
-    path: '/services/mvp-development',
-    name: 'services.mvp',
-    meta: {
-      title: setTitle('MVP Development')
-    },
-    component: () => import('@/views/Services/mvp/index.vue')
-  },
+
   {
     path: '/help/detail',
     name: 'help.detail',
@@ -565,6 +550,57 @@ const accountsRoutes = [
   }
 ]
 
+const servicesRoutes = [
+  {
+    path: '/services',
+    name: 'services.index',
+    meta: {
+      title: setTitle('Our Services')
+    },
+    component: () => import('@/views/Services/index.vue')
+  },
+  {
+    path: '/services/mvp-development',
+    name: 'services.mvp',
+    meta: {
+      title: setTitle('MVP Development')
+    },
+    component: () => import('@/views/Services/mvp/index.vue')
+  },
+  {
+    path: '/services/application-development',
+    name: 'services.application',
+    meta: {
+      title: setTitle('Application Development')
+    },
+    component: () => import('@/views/Services/application-development/index.vue')
+  },
+  {
+    path: '/services/devops-solutions',
+    name: 'services.devops',
+    meta: {
+      title: setTitle('DevOps Solutions')
+    },
+    component: () => import('@/views/Services/devops-solutions/index.vue')
+  },
+  {
+    path: '/services/digital-marketing',
+    name: 'services.dmarketing',
+    meta: {
+      title: setTitle('Digital Marketing')
+    },
+    component: () => import('@/views/Services/digital-marketing/index.vue')
+  },
+  {
+    path: '/services/ecommerce-development',
+    name: 'services.ecommerce',
+    meta: {
+      title: setTitle('Ecommerce Development')
+    },
+    component: () => import('@/views/Services/ecommerce-development/index.vue')
+  }
+];
+
 export const allRoutes = [
   ...demoRoutes,
   ...pagesRoutes,
@@ -573,5 +609,6 @@ export const allRoutes = [
   ...portfolioRoutes,
   ...shopRoutes,
   ...blogRoutes,
-  ...saasRoutes
+  ...saasRoutes,
+  ...servicesRoutes
 ]
