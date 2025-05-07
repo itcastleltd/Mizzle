@@ -94,10 +94,9 @@
 
         <b-row class="g-4 position-relative">
           <b-col lg="10" xl="7" class="mx-auto text-center">
-            <h3 class="text-white mb-3">Don't miss out - millions have joined Mizzle!</h3>
+            <h3 class="text-white mb-3">Don’t miss out 100+ startups launched their MVP with us!</h3>
             <p class="text-white opacity-8">
-              Join the Mizzle revolution today and be part of the millions who've already embraced a
-              brighter future!
+              JJoin our mailing list to access MVP guides, success stories, and exclusive early-stage founder tips!
             </p>
 
             <b-form class="col-md-10 bg-white bg-opacity-10 rounded-2 mx-auto p-2 mb-5">

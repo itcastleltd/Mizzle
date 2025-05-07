@@ -5,7 +5,7 @@
         <span class="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2"
           >Core feature</span
         >
-        <h2 class="mb-0 mt-3">The heart of our solution</h2>
+        <h2 class="mb-0 mt-3">Proven Approach for a Success MVP </h2>
       </div>
 
       <b-row>
@@ -47,5 +47,5 @@
 </template>
 
 <script setup lang="ts">
-import { features } from '@/views/pages/saas/FeatureSingle/data'
+import { features } from '@/views/Services/mvp/data';
 </script>

@@ -31,5 +31,5 @@
 </template>
 
 <script setup lang="ts">
-import { faq } from '@/views/pages/saas/FeatureSingle/data'
+import { faq } from '@/views/Services/mvp/data'
 </script>

@@ -4,15 +4,15 @@
       <b-row class="align-items-center">
         <b-col md="7" xl="6" class="mb-6 mb-md-0">
           <span class="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2"
-            >Analytics</span
+            >Lean Startup Methodology </span
           >
-          <h1 class="h2 my-4">Comprehensive data analytics and reporting</h1>
+          <h1 class="h2 my-4">Transform Your Vision into a Market-Ready MVP</h1>
           <p class="mb-7">
-            Gain valuable insights into your digital campaigns with our comprehensive data analytics
-            and reporting feature.
+            Transform your idea into a functional MVP application with our rapid development process. 
+            From user-centric design to scalable architecture, It castle help startups bring their vision to life.
           </p>
 
-          <h6 class="text-white fw-normal mb-4">More than 500+ teams are using Mizzle</h6>
+          <h6 class="text-white fw-normal mb-4">More than 200+ startups trusted our launch strategy</h6>
 
           <Swiper
             :modules="[Autoplay]"
@@ -68,21 +68,21 @@
           </div>
 
           <b-card no-body class="card-body position-absolute bottom-0 start-0 ms-xl-n8 mb-n5">
-            <p>Our lovely customers</p>
+            <p>Our lovely Founders</p>
             <div class="d-flex align-items-center">
               <ul class="avatar-group mb-0 align-items-center">
                 <li v-for="item in avatars" :key="item" class="avatar avatar-xs">
                   <img class="avatar-img rounded-circle" :src="item" alt="avatar" />
                 </li>
               </ul>
-              <h6 class="text-white mb-0 ms-2">5K+</h6>
+              <h6 class="text-white mb-0 ms-2">200+</h6>
             </div>
             <hr />
 
             <div class="overflow-hidden">
               <div class="d-flex justify-content-between mb-2">
                 <small>Satisfaction Rate</small>
-                <small>80%</small>
+                <small>90%</small>
               </div>
               <div class="progress progress-sm bg-primary bg-opacity-10">
                 <div
@@ -109,7 +109,7 @@
 <script lang="ts" setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay } from 'swiper/modules'
-import { swiper, avatars } from '@/views/pages/saas/FeatureSingle/data'
+import { swiper, avatars } from '@/views/Services/mvp/data'
 
 import about14 from '@/assets/images/about/14.jpg'
 import avatar06 from '@/assets/images/avatar/06.jpg'

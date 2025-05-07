@@ -12,7 +12,9 @@ import avatar4 from '@/assets/images/avatar/04.jpg'
 import decoration10 from '@/assets/images/elements/saas-decoration/10.png'
 import decoration11 from '@/assets/images/elements/saas-decoration/11.png'
 import decoration12 from '@/assets/images/elements/saas-decoration/12.png'
-import type { FAQType, ServiceType } from '@/types'
+import project1 from '@/assets/images/portfolio/list/02.jpg'
+import project2 from '@/assets/images/portfolio/list/03.jpg'
+import type { FAQType, ServiceType, ProjectType, StatisticType } from '@/types'
 
 type FeaturedType = {
   odd?: boolean
@@ -26,23 +28,23 @@ export const swiper: string[] = [client5, client4, client1, client2, client3, cl
 
 export const features: FeaturedType[] = [
   {
-    title: 'Comprehensive Data Segmentation',
+    title: 'Design & Prototyping',
     description:
-      'Dive deep into your data. Explore our comprehensive segmentation capabilities, allowing you to analyze specific subsets of your data for precise insights.',
+      'Our exceptional design team creates intuitive UI/UX prototypes, allowing you to visualize the product and gather early feedback.',
     image: decoration10,
     odd: false
   },
   {
-    title: 'Customization to Fit Your Needs',
+    title: 'Development & Testing',
     description:
-      'Tailor your data analytics experience. Discover how our tool can be customized to meet your unique reporting and analysis requirements.',
+      'Utilizing technologies like Laravel, React, Vue.js, and Node.js, we build a robust and scalable minimum viable product tailored to your needs.',
     image: decoration11,
     odd: true
   },
   {
-    title: 'Data Collaboration Made Easy',
+    title: 'Launch Stretegy & Support',
     description:
-      'Collaborate seamlessly with your team. Our tool facilitates data sharing, commenting, and collaborative reporting, so you can work together effectively.',
+      'We assist with deployment and provide ongoing support to gather user feedback and plan subsequent iterations.',
     image: decoration12,
     odd: false
   }
@@ -52,19 +54,19 @@ export const avatars: string[] = [avatar6, avatar5, avatar2, avatar3, avatar4]
 
 export const faq: FAQType[] = [
   {
-    question: 'How many items are there on this list?',
+    question: 'How long does it take to develop an MVP?',
     answer:
-      'Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled. Tried law yet style child. The bore of true of no be deal. Drawings offended yet answered Jennings perceive laughing six did far. Rooms oh fully taken by worse do. Points afraid but may end law lasted.'
+      'A typical MVP takes 4–12 weeks depending on complexity and scope. We focus on essential features to ensure a quick launch and gather user feedback.',
   },
   {
-    question: 'Can you describe Mizzle in just one sentence?',
+    question: 'Do you sign NDAs for idea protection?',
     answer:
-      'September how men saw tolerably two behavior arranging. She offices for highest and replied one venture pasture. Applauded no discovery in newspaper allowance am northward. Frequestion partiality possession resolution at or appearance unaffected me. Engaged its was the evident pleased husband. Ye goodness felicity do disposal dwelling no. First am plate jokes to began to cause a scale. Subjects he prospect elegance followed no overcame possible it on. Improved own provided blessing may peculiar domestic. Sight house has sex never. No visited raising gravity outward subject my cottage Mr be.'
+      'Yes, we offer full confidentiality and sign NDAs before any discussion. Your idea is safe with us.',
   },
   {
-    question: 'Can I use this theme for my client?',
+    question: 'Can you help us scale the MVP post-launch?',
     answer:
-      'How men saw tolerably two behavior arranging. She offices for highest and replied one venture pasture. Applauded no discovery in newspaper allowance am northward. Frequestion partiality possession resolution at or appearance unaffected me. Engaged its was the evident pleased husband. Ye goodness felicity do disposal dwelling no. First am plate jokes to began to cause a scale. Subjects he prospect elegance followed no overcame possible it on. Improved own provided blessing may peculiar domestic. Sight house has sex never. No visited raising gravity outward subject my cottage Mr be. Hold do at tore in park feet near my case. Invitation at understood occasional sentiments insipidity inhabiting in. Off melancholy alteration principles old. Is do speedily kindness properly oh. Respect article painted cottage he is offices parlors.'
+      'Absolutely. We offer long-term support for product scaling, feature enhancements, and team augmentation.'
   },
   {
     question: 'Do you offer themes in other categories?',
@@ -82,23 +84,57 @@ export const finalFeature: FeaturedType[] = [
   {
     lg: 6,
     variant: 'dark',
-    title: 'Feature',
-    description: 'Skyrocket your business to unprecedented heights with the right tools today',
+    title: 'Faster Time-to-Market',
+    description: 'Launch MVPs in two weeks, not in a months',
     span: '42%'
   },
   {
     lg: 6,
     variant: 'success',
-    title: 'Analytics',
-    description: 'Elevate your business to new heights with the right tools today.',
+    title: 'Return on Initial Investment',
+    description: 'Build only what matters, validate early, and scale smarter.',
     span: '5X'
   },
   {
     cols: 12,
     variant: 'danger',
-    title: 'Revenue',
+    title: 'Raised by Our Clients',
     description:
-      'Unlock the full potential of your business and elevate it to new heights by harnessing the power of cutting-edge tools and technologies available today.',
-    span: '$2.3M'
+      'We’ve helped multiple startups raise funding post-MVP launch.',
+    span: '$32.3M'
+  }
+]
+
+export const projects: ProjectType[] = [
+  {
+    name: 'Website optimization for techWave',
+    category: 'Graphic design',
+    image: project1,
+    route: { name: 'portfolio.case-study.v2' }
+  },
+  {
+    name: 'Transforming ideas into reality',
+    category: 'UI/UX design',
+    image: project2,
+    route: { name: 'portfolio.case-study.v2' }
+  }
+]
+
+export const statData: StatisticType[] = [
+  {
+    title: 'Worldwide client',
+    number: 30,
+    prefix: '>',
+    suffix: 'K'
+  },
+  {
+    title: 'Analyze business reports',
+    number: 99,
+    suffix: '%'
+  },
+  {
+    title: 'Worldwide projects',
+    number: 350,
+    suffix: '+'
   }
 ]

@@ -3,9 +3,9 @@
     <b-container>
       <div class="inner-container-small text-center mb-4 mb-sm-7">
         <span class="bg-primary bg-opacity-10 text-primary text-uppercase rounded small px-3 py-2"
-          >Final solution</span
+          >Startups and Scaleups</span
         >
-        <h2 class="mb-0 mt-3">Unlocking Success Through Our Solutions</h2>
+        <h2 class="mb-0 mt-3">Choose Us as Their MVP Partner</h2>
       </div>
 
       <b-row class="g-4 g-lg-5">
@@ -35,7 +35,7 @@
 </template>
 
 <script setup lang="ts">
-import { finalFeature } from '@/views/pages/saas/FeatureSingle/data'
+import { finalFeature } from '@/views/Services/mvp/data';
 
 import about05 from '@/assets/images/about/05.jpg'
 </script>
